@@ -1,0 +1,32 @@
+.story {
+    padding: 35px;
+    min-height: 430px;
+    overflow: hidden;
+}
+.story-img-left {
+    margin: 20px;
+    margin-top: 0;
+    margin-left: 0;
+    height: 300px;
+    float: left;
+}
+.story-img-right {
+    margin: 20px;
+    margin-top: 0;
+    margin-right: 0;
+    height: 300px;
+    float: right;
+}
+
+.client-contacts {
+    margin-left: calc(50% - 212px);
+    margin-right: auto;
+}
+
+
+@media (max-width: 675px) {
+.story-img-right {
+    margin-left: 0;
+    float: none;
+}
+}
