@@ -538,6 +538,19 @@ header {
 .hdr-nav li {
     margin-top: 0;
 }
+}
 
 
+@media (max-width: 500px) {
+.harrington-img,
+.club-img,
+.story-img-left,
+.story-img-right,
+{
+    margin-left: 20px;
+    margin-right: 20px;
+    width: calc(100% - 70px);
+    height: auto;
+    float: none;
+}
 }
